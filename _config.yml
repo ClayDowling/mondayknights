@@ -125,9 +125,6 @@ compress_html:
     envs: development
 
 collections:
-  adventures:
-    output: true
-    permalink: /:collection/:name:output_ext
   world:
     output: true
     permalink: /:collection/:name:output_ext
@@ -144,14 +141,6 @@ defaults:
       read_time: true
       comments: # true
       share: true
-      related: true
-  # _adventures
-  - scope:
-      path: ""
-      type: adventures
-    values:
-      layout: single
-      author_profile: false
       related: true
   # _world
   - scope:
