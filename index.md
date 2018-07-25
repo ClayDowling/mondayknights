@@ -1,0 +1,3 @@
+layout: home
+paginate: true
+---
