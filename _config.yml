@@ -150,3 +150,4 @@ defaults:
       layout: single
       author_profile: false
       related: true
+theme: jekyll-theme-minimal
