@@ -1,5 +1,7 @@
-layout: home
-paginate: true
+---
+layout: posts
+author: Clay Dowling
+header:
+  image: /assets/images/detroit-skyline.jpg
 ---
 
-More content to come as events happen

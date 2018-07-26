@@ -1,3 +1,7 @@
 main:
   - title: "Our World"
     url: "/world/"
+  - title: "Adventures"
+    url: "/adventures/"
+  - title: "About Us"
+    url: "/about.html"
