@@ -6,6 +6,7 @@ title_separator: "-"
 description: "Steampunk Adventures"
 name: &name "Clay Dowling"
 base-url: "/mondayknights/"
+repository: "ClayDowling/mondayknights"
 
 author:
         name: *name
