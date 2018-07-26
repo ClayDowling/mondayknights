@@ -17,7 +17,7 @@ author:
 
 search: true
 search_full_content: true
-minimal_mistakes_skin: air
+minimal_mistakes_skin: contrast
 
 include:
   - _pages
