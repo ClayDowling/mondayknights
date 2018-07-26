@@ -1,3 +1,4 @@
+---
 title: "Furry Members of Our World"
 ---
 There's been some speculation about the characters being non-human.  Some of the proposed types include anthropomorphic animals.  These are some proposed types that we could use.
