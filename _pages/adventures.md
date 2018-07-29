@@ -1,5 +1,5 @@
 ---
-title: "Adventures in Haunted Detroit"
+title: "Adventures of the Monday Knights"
 layout: collection
 collection: adventures
 author_profile: false

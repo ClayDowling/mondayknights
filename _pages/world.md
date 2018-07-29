@@ -1,5 +1,5 @@
 ---
-title: "The World of Haunted Detroit"
+title: "The World of the Monday Knights"
 layout: collection
 collection: world
 author_profile: false
