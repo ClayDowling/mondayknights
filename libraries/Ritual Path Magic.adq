@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<advantage_list id="0f803048-8e43-4230-8985-d983db26b4d9" version="1">
+	<advantage version="2">
+		<name>Ritual Adept</name>
+		<type>Physical</type>
+		<base_points>40</base_points>
+		<categories>
+			<category>Magic</category>
+		</categories>
+		<prereq_list all="yes">
+			<advantage_prereq has="yes">
+				<name compare="is">Magery</name>
+				<notes compare="is anything">Ritual Path</notes>
+			</advantage_prereq>
+		</prereq_list>
+	</advantage>
+	<advantage version="2">
+		<name>Magery</name>
+		<type>Physical</type>
+		<levels>0</levels>
+		<base_points>5</base_points>
+		<points_per_level>10</points_per_level>
+		<notes>Ritual Path</notes>
+		<categories>
+			<category>Magic</category>
+		</categories>
+	</advantage>
+</advantage_list>
