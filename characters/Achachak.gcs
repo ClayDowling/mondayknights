@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<character id="92c96d51-af6c-434b-9d86-0fd6aa81a39e" version="3">
+	<created_date>Aug 4, 2018</created_date>
+	<modified_date>Aug 4, 2018, 7:21 PM</modified_date>
+	<profile>
+		<player_name>clay</player_name>
+		<campaign>Monday Knights</campaign>
+		<name>Achachak</name>
+		<title>PAUWAU</title>
+		<age>29</age>
+		<birthday>October 13</birthday>
+		<eyes>Brown</eyes>
+		<hair>Black, Curly, Short</hair>
+		<skin>Freckled</skin>
+		<handedness>Left</handedness>
+		<height>5' 8"</height>
+		<weight>167 lb</weight>
+		<SM>0</SM>
+		<gender>Male</gender>
+		<race>Human</race>
+		<body_type>humanoid</body_type>
+		<tech_level>5+</tech_level>
+		<religion>Algonquin</religion>
+	</profile>
+	<HP>0</HP>
+	<FP>0</FP>
+	<total_points>150</total_points>
+	<ST>10</ST>
+	<DX>10</DX>
+	<IQ>10</IQ>
+	<HT>10</HT>
+	<will>0</will>
+	<perception>0</perception>
+	<speed>0</speed>
+	<move>0</move>
+	<include_punch>true</include_punch>
+	<include_kick>true</include_kick>
+	<include_kick_with_boots>true</include_kick_with_boots>
+	<advantage_list>
+		<advantage version="2">
+			<name>Ritual Adept</name>
+			<type>Physical</type>
+			<base_points>40</base_points>
+			<categories>
+				<category>Magic</category>
+			</categories>
+			<prereq_list all="yes">
+				<advantage_prereq has="yes">
+					<name compare="is">Magery</name>
+					<notes compare="is anything">Ritual Path</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</advantage>
+		<advantage version="2">
+			<name>Magery</name>
+			<type>Physical</type>
+			<levels>3</levels>
+			<base_points>5</base_points>
+			<points_per_level>10</points_per_level>
+			<notes>Ritual Path</notes>
+			<categories>
+				<category>Magic</category>
+			</categories>
+		</advantage>
+	</advantage_list>
+	<print_settings printer="HP LaserJet Professional M1212nf MFP" units="in">
+		<orientation>portrait</orientation>
+		<width>8.5</width>
+		<height>11</height>
+		<top_margin>0.5</top_margin>
+		<left_margin>0.5</left_margin>
+		<bottom_margin>0.5</bottom_margin>
+		<right_margin>0.5</right_margin>
+		<ink_chromaticity>monochrome</ink_chromaticity>
+		<sides>duplex</sides>
+		<quality>normal</quality>
+	</print_settings>
+</character>
