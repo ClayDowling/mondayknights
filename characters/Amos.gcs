@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<character id="b1d1e15a-d64e-482c-8408-74eab9d32d92" version="3">
+	<created_date>Aug 6, 2018</created_date>
+	<modified_date>Aug 6, 2018, 8:36 PM</modified_date>
+	<profile>
+		<player_name>Josh</player_name>
+		<name>Amos</name>
+		<age>38</age>
+		<birthday>June 22</birthday>
+		<eyes>Brown</eyes>
+		<hair>Blond, Wavy, Medium</hair>
+		<skin>Dark Brown</skin>
+		<handedness>Right</handedness>
+		<height>5' 4"</height>
+		<weight>160 lb</weight>
+		<SM>0</SM>
+		<gender>Male</gender>
+		<race>Human</race>
+		<body_type>humanoid</body_type>
+		<tech_level>5</tech_level>
+	</profile>
+	<HP>0</HP>
+	<FP>0</FP>
+	<total_points>150</total_points>
+	<ST>10</ST>
+	<DX>10</DX>
+	<IQ>10</IQ>
+	<HT>10</HT>
+	<will>0</will>
+	<perception>0</perception>
+	<speed>0</speed>
+	<move>0</move>
+	<include_punch>true</include_punch>
+	<include_kick>true</include_kick>
+	<include_kick_with_boots>true</include_kick_with_boots>
+	<advantage_list>
+		<advantage version="2">
+			<name>Alcohol Tolerance</name>
+			<type>Physical</type>
+			<base_points>1</base_points>
+			<reference>B100</reference>
+			<categories>
+				<category>Perk</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Alcoholism</name>
+			<type>Physical</type>
+			<base_points>-15</base_points>
+			<modifier version="1" enabled="no">
+				<name>Illegal</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B122</reference>
+			</modifier>
+			<reference>B122</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Chummy (Gregarious)</name>
+			<type>Mental</type>
+			<base_points>-10</base_points>
+			<reference>B126</reference>
+			<notes>React to others at +4; -2 to IQ-based skills when alone, or -1 in a group of 4 or less</notes>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Animal Empathy</name>
+			<type>Mental</type>
+			<base_points>5</base_points>
+			<modifier version="1" enabled="no">
+				<name>Remote</name>
+				<cost type="percentage">50</cost>
+				<affects>total</affects>
+				<reference>P48</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Specialized</name>
+				<cost type="percentage">-40</cost>
+				<affects>total</affects>
+				<reference>B87</reference>
+				<notes>All aquatic animals</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Specialized</name>
+				<cost type="percentage">-40</cost>
+				<affects>total</affects>
+				<reference>B87</reference>
+				<notes>All land animals</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Specialized</name>
+				<cost type="percentage">-50</cost>
+				<affects>total</affects>
+				<reference>B87</reference>
+				<notes>@One class: Mammals, Birds, etc.@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Specialized</name>
+				<cost type="percentage">-60</cost>
+				<affects>total</affects>
+				<reference>B87</reference>
+				<notes>@One family: Felines, Parrots, etc.@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Specialized</name>
+				<cost type="percentage">-80</cost>
+				<affects>total</affects>
+				<reference>B87</reference>
+				<notes>@One species: House Cats, Macaws, etc.@</notes>
+			</modifier>
+			<reference>B40</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+	</advantage_list>
+	<skill_list>
+		<skill version="2">
+			<name>Guns</name>
+			<specialization>Pistol</specialization>
+			<tech_level>5</tech_level>
+			<difficulty>DX/E</difficulty>
+			<points>20</points>
+			<reference>B198</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<specialization>Pistol</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Guns</name>
+			<specialization>Rifle</specialization>
+			<tech_level>5</tech_level>
+			<difficulty>DX/E</difficulty>
+			<points>16</points>
+			<reference>B198</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<specialization>Rifle</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Brawling</name>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B182</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<weapon_bonus>
+				<name compare="is">Brawling</name>
+				<specialization compare="is anything"></specialization>
+				<level compare="at least">2</level>
+				<amount per_level="yes">1</amount>
+			</weapon_bonus>
+		</skill>
+		<technique version="2" limit="5">
+			<name>Disarming</name>
+			<difficulty>H</difficulty>
+			<points>24</points>
+			<reference>B230</reference>
+			<default>
+				<type>Skill</type>
+				<name>Brawling</name>
+				<modifier>0</modifier>
+			</default>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+				<category>Technique</category>
+			</categories>
+		</technique>
+		<skill version="2">
+			<name>Armoury</name>
+			<specialization>Melee Weapons</specialization>
+			<tech_level>5</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B178</reference>
+			<categories>
+				<category>Military</category>
+				<category>Repair/Maintainance</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Melee Weapons</specialization>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<technique version="2" limit="0">
+			<name>Off-Hand Weapon Training</name>
+			<difficulty>H</difficulty>
+			<points>12</points>
+			<reference>B232</reference>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+				<category>Technique</category>
+			</categories>
+		</technique>
+		<skill version="2">
+			<name>Armoury</name>
+			<specialization>Missile Weapons</specialization>
+			<tech_level>5</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B178</reference>
+			<categories>
+				<category>Military</category>
+				<category>Repair/Maintainance</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Missile Weapons</specialization>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Piloting</name>
+			<specialization>Lighter-Than-Air</specialization>
+			<tech_level>5</tech_level>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B214</reference>
+			<categories>
+				<category>Vehicle</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Piloting</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Driving</name>
+			<specialization>Locomotive</specialization>
+			<tech_level>5</tech_level>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B188</reference>
+			<categories>
+				<category>Vehicle</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Driving</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Driving</name>
+			<specialization>Motorcycle</specialization>
+			<tech_level>5</tech_level>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B188</reference>
+			<categories>
+				<category>Vehicle</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Bicycling</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Driving</name>
+			<specialization>Heavy Wheeled</specialization>
+			<tech_level>5</tech_level>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B188</reference>
+			<categories>
+				<category>Vehicle</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Driving</name>
+				<specialization>Automobile</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Driving</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Animal Handling</name>
+			<specialization>Dogs</specialization>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B175</reference>
+			<categories>
+				<category>Animal</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+	</skill_list>
+	<equipment_list>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Flintlock Pistol, .51</description>
+			<tech_level>4</tech_level>
+			<legality_class>3</legality_class>
+			<value>200</value>
+			<weight>3 lb</weight>
+			<reference>B278</reference>
+			<ranged_weapon>
+				<damage>2d-1 pi+</damage>
+				<strength>10</strength>
+				<accuracy>1</accuracy>
+				<range>75/450</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>1(20)</shots>
+				<bulk>-3</bulk>
+				<recoil>2</recoil>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Pistol</specialization>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Rifle</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Shotgun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Machine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Submachine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Musket</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Grenade Launcher</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Gyroc</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Anti-Armor Weapon</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Gun!</name>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Missile Weapon</category>
+			</categories>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Flintlock Pistol, .51</description>
+			<tech_level>4</tech_level>
+			<legality_class>3</legality_class>
+			<value>200</value>
+			<weight>3 lb</weight>
+			<reference>B278</reference>
+			<ranged_weapon>
+				<damage>2d-1 pi+</damage>
+				<strength>10</strength>
+				<accuracy>1</accuracy>
+				<range>75/450</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>1(20)</shots>
+				<bulk>-3</bulk>
+				<recoil>2</recoil>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Pistol</specialization>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Rifle</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Shotgun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Machine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Submachine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Musket</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Grenade Launcher</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Gyroc</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Anti-Armor Weapon</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Gun!</name>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Missile Weapon</category>
+			</categories>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Flintlock Carbine</description>
+			<tech_level>4</tech_level>
+			<legality_class>2</legality_class>
+			<value>245</value>
+			<weight>3.9 lb</weight>
+			<reference>LT92</reference>
+			<ranged_weapon>
+				<damage>2d+2 pi++</damage>
+				<strength>8&#8224;</strength>
+				<usage>Shoot</usage>
+				<accuracy>3</accuracy>
+				<range>65/670</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>1(40)</shots>
+				<bulk>-4</bulk>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Musket</specialization>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<modifier>-2</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Missile Weapon</category>
+			</categories>
+		</equipment>
+		<equipment version="4" state="equipped">
+			<quantity>1</quantity>
+			<description>Flintlock Carbine Bullet</description>
+			<tech_level>4</tech_level>
+			<legality_class>4</legality_class>
+			<value>1.2</value>
+			<weight>0.06 lb</weight>
+			<reference>LT93</reference>
+			<categories>
+				<category>Ammunition</category>
+			</categories>
+		</equipment>
+	</equipment_list>
+	<print_settings printer="NPIDBA376 (HP Color LaserJet MFP M281fdw)" units="in">
+		<orientation>portrait</orientation>
+		<width>8.5</width>
+		<height>11</height>
+		<top_margin>0.5</top_margin>
+		<left_margin>0.5</left_margin>
+		<bottom_margin>0.5</bottom_margin>
+		<right_margin>0.5</right_margin>
+		<ink_chromaticity>monochrome</ink_chromaticity>
+		<sides>single</sides>
+		<quality>normal</quality>
+	</print_settings>
+</character>
