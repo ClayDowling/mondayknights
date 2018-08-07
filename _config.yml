@@ -31,6 +31,9 @@ collections:
   world:
     output: true
     permalink: /:collection/:name:output_ext
+  characters:
+    output: true
+    permalink: /:collection/:name:output_ext
 
 defaults:
         # _posts
@@ -66,3 +69,11 @@ defaults:
                 layout: single
                 author_profile: false
                 related: true
+        # _characters
+        - scope:
+                path: ""
+                type: characters
+          values:
+                layout: single
+                author_profile: true
+                related: false
