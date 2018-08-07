@@ -7,10 +7,10 @@ To make a character page, put a file in the `_characters` folder with the name o
 
 It will include a block of front-matter at the top like this:
 
-  ---
-  title: "Character Name Here"
-  author: "player"
-  ---
+    ---
+    title: "Character Name Here"
+    author: "player"
+    ---
 
 The contents of the file are github flavored markdown, so anything that will work on a github page will work here.
 
@@ -24,7 +24,7 @@ To put an image on a page, first add the image in the folder `assets/images`
 
 To use the image in a page, put markup like the following:
 
-  ![Clay and His Cat]({{ "/assets/images/clay-with-kronos.jpg" | absolute_url }})
+    ![Clay and His Cat]({{ "/assets/images/clay-with-kronos.jpg" | absolute_url }})
 
 That markup will render something like this:
 
