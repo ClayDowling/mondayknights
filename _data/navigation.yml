@@ -1,4 +1,6 @@
 main:
+  - title: "Characters"
+    url: "/characters/"
   - title: "Our World"
     url: "/world/"
   - title: "Adventures"
