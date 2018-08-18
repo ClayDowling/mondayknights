@@ -7,6 +7,7 @@ description: "Steampunk Adventures"
 name: &name "Clay Dowling"
 base-url: "/mondayknights/"
 repository: "ClayDowling/mondayknights"
+markdown: kramdown
 
 author:
         name: *name
