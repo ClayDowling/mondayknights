@@ -13,4 +13,3 @@ Things to do in Washington
 * Bar Fight
 * Booze
 * A pack of Good Boys menace Lily
-
