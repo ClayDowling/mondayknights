@@ -36,3 +36,6 @@ An additional point to Lilly for successfully making a Control Roll vs their Cyn
 
 All points have been added to sheets already.
 
+Adrienne's sheet was adjusted to make her Motion Sickness less crippling.  This left her with a deficit of 5 points.  With the experience from this session, her current point total is 0.
+
+Amos had two additional points returned to him because some skills were for vehicles which didn't exist yet.
