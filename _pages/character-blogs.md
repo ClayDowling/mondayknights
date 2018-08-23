@@ -1,7 +1,7 @@
 ---
 title: "Character Blogs"
 author_profile: false
-permalink: "character-blogs.html"
+permalink: /character-blogs.html
 ---
 
 To write a character blog, create a file in the `_posts` folder of the form `YYYY-MM-DD-title-with-dashes.md`.  The date used should represent the date you want the article to be published.  Before that date your article will not be published.
