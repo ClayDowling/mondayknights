@@ -1,6 +1,8 @@
 main:
   - title: "Characters"
     url: "/characters/"
+    - title: "Character Blogs"
+      url: "/character-blogs.html"
   - title: "Our World"
     url: "/world/"
   - title: "Adventures"
