@@ -2,7 +2,6 @@
 title: "Adrienne Desmarais"
 author: "nicole"
 ---
-### _ˈe**ɪ**driən dəˈm**ɛ**rəs_
 ![Adrienne Desmarais](https://bit.ly/2MnJtae)
 
 ## Family
@@ -10,11 +9,11 @@ author: "nicole"
 - **Daughter:** Etienne O'Connor (age 8)
 - **Oldest brother:** Emile Desmarais
 - **Other family:** Coupla parents, two older sisters, another older brother
-- **Overseas:** Grandparents and some aunts/uncles/cousins in France
+- **Overseas:** Distant relatives in France
 - **In-laws:** Won't even look at her
 
 ## Background
-Grew up in Boston, upper-class, second gen. Youngest of five, family is big in the rum industry.
+Grew up in Boston, upper-class, French-speaking family. Youngest of five, family is big in the rum industry.
 
 Her eldest brother got into machinery manufacturing, and Adrienne spent a lot of time at the factory, tinkering with gadgets on her own time. The more her family frowned on her hobby, unbecoming of a young woman, the more tightly she clung to it.
 
@@ -39,7 +38,7 @@ Washington, PA has airfields on the northern edge. Bordering Indian country, Alg
 Got some information about Lee Gentry in Washington. Fueled up and met back up with Amos; still need to find Lily. If there are dead birds on the ship, will not be pleased.
 
 ### Balloon Ships
-Canoe-light, light wooden frame. Confederacy birds used as scouts. Dogs on board.
+Canoe-like, light wooden frame. Confederacy birds used as scouts. Dogs on board.
 
 ### Lee Gentry
 Long, straight blond hair. Flies an unremarkable ship.
