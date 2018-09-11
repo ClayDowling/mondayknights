@@ -1,6 +1,8 @@
 main:
   - title: "Characters"
     url: "/characters/"
+  - title: "Character Blogs"
+    url: "/character-blogs.html"
   - title: "Our World"
     url: "/world/"
   - title: "Adventures"
@@ -9,3 +11,5 @@ main:
     url: "/about.html"
   - title: "Resources"
     url: "/links.html"
+  - title: "Reference"
+    url: "/gurps-reference.html"
