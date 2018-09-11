@@ -1,0 +1,17 @@
+clay:
+  name: "Clay Dowling"
+  uri: "http://claydowling.com"
+  email: "clay@lazarusid.com"
+  bio: "Keeper of the cats, provider of the whiskey."
+  avatar: "/assets/images/clay-with-kronos.jpg"
+  twitter: ClayDowling
+  
+meg:
+  name: "Meg Green"
+
+nicole:
+  name: "Nicole Arruda"
+  email: "narruda789@gmail.com"
+
+josh:
+  name: "Josh Thiesen"

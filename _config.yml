@@ -7,6 +7,7 @@ description: "Steampunk Adventures"
 name: &name "Clay Dowling"
 base-url: "/mondayknights/"
 repository: "ClayDowling/mondayknights"
+markdown: kramdown
 
 author:
         name: *name
@@ -18,7 +19,7 @@ author:
 
 search: true
 search_full_content: true
-minimal_mistakes_skin: contrast
+minimal_mistakes_skin: air
 
 include:
   - _pages
@@ -29,6 +30,9 @@ collections:
     output: true
     permalink: /:collection/:name:output_ext
   world:
+    output: true
+    permalink: /:collection/:name:output_ext
+  characters:
     output: true
     permalink: /:collection/:name:output_ext
 
@@ -66,3 +70,11 @@ defaults:
                 layout: single
                 author_profile: false
                 related: true
+        # _characters
+        - scope:
+                path: ""
+                type: characters
+          values:
+                layout: single
+                author_profile: true
+                related: false
