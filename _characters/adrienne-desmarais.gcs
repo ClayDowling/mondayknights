@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="cb1422e9-db83-45a0-b79b-946568e59649" version="3">
 	<created_date>Jul 30, 2018</created_date>
-	<modified_date>Oct 22, 2018, 9:56 PM</modified_date>
+	<modified_date>Nov 5, 2018, 7:57 PM</modified_date>
 	<profile>
 		<player_name>Nicole</player_name>
 		<name>Adrienne Desmarais</name>
@@ -1168,8 +1168,9 @@ MKzJ/weiywL4uTAORAAAAABJRU5ErkJggg==
 		</portrait>
 	</profile>
 	<HP>0</HP>
+	<current_hp>11</current_hp>
 	<FP>0</FP>
-	<total_points>167</total_points>
+	<total_points>172</total_points>
 	<ST>11</ST>
 	<DX>11</DX>
 	<IQ>12</IQ>
@@ -1466,20 +1467,6 @@ MKzJ/weiywL4uTAORAAAAABJRU5ErkJggg==
 			</categories>
 		</skill>
 		<skill version="2">
-			<name>Seamanship</name>
-			<tech_level>5+</tech_level>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B185</reference>
-			<categories>
-				<category>Vehicle</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
 			<name>Savoir-Faire</name>
 			<specialization>High Society</specialization>
 			<difficulty>IQ/E</difficulty>
@@ -1502,23 +1489,48 @@ MKzJ/weiywL4uTAORAAAAABJRU5ErkJggg==
 			</default>
 		</skill>
 		<skill version="2">
-			<name>Riding</name>
-			<specialization>Equine</specialization>
-			<difficulty>DX/A</difficulty>
-			<points>4</points>
-			<reference>B217</reference>
+			<name>Diplomacy</name>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B187</reference>
 			<categories>
-				<category>Animal</category>
+				<category>Business</category>
+				<category>Police</category>
+				<category>Social</category>
 			</categories>
 			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
+				<type>IQ</type>
+				<modifier>-6</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Animal Handling</name>
-				<specialization>Equine</specialization>
-				<modifier>-3</modifier>
+				<name>Politics</name>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Detect Lies</name>
+			<difficulty>Per/H</difficulty>
+			<points>1</points>
+			<reference>B187</reference>
+			<categories>
+				<category>Police</category>
+				<category>Social</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Body Language</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Psychology</name>
+				<modifier>-4</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -1526,7 +1538,7 @@ MKzJ/weiywL4uTAORAAAAABJRU5ErkJggg==
 			<specialization>Lighter-Than-Air</specialization>
 			<tech_level>5+</tech_level>
 			<difficulty>DX/A</difficulty>
-			<points>4</points>
+			<points>8</points>
 			<reference>B214</reference>
 			<categories>
 				<category>Vehicle</category>
@@ -1604,33 +1616,95 @@ MKzJ/weiywL4uTAORAAAAABJRU5ErkJggg==
 			</default>
 		</skill>
 		<skill version="2">
-			<name>Knife</name>
-			<difficulty>DX/E</difficulty>
+			<name>Engineer</name>
+			<specialization>Clockwork</specialization>
+			<tech_level>5+</tech_level>
+			<difficulty>IQ/H</difficulty>
 			<points>4</points>
-			<reference>B208</reference>
+			<reference>B190</reference>
 			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
+				<category>Design/Invention</category>
+				<category>Engineer</category>
+			</categories>
+			<prereq_list all="yes">
+				<when_tl compare="at least">5</when_tl>
+				<skill_prereq has="yes">
+					<name compare="is">mathematics</name>
+					<specialization compare="is">applied</specialization>
+				</skill_prereq>
+			</prereq_list>
+			<default>
+				<type>Skill</type>
+				<name>Mechanic</name>
+				<specialization>Clockwork</specialization>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Engineer</name>
+			<specialization>Ships</specialization>
+			<tech_level>5+</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>12</points>
+			<reference>B190</reference>
+			<categories>
+				<category>Design/Invention</category>
+				<category>Engineer</category>
+			</categories>
+			<prereq_list all="yes">
+				<when_tl compare="at least">5</when_tl>
+				<skill_prereq has="yes">
+					<name compare="is">mathematics</name>
+					<specialization compare="is">applied</specialization>
+				</skill_prereq>
+			</prereq_list>
+			<default>
+				<type>Skill</type>
+				<name>Mechanic</name>
+				<specialization>Ships</specialization>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>First Aid</name>
+			<tech_level>5+</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>2</points>
+			<reference>B195</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Medical</category>
 			</categories>
 			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Main-Gauche</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>DX</type>
+				<type>IQ</type>
 				<modifier>-4</modifier>
 			</default>
+			<default>
+				<type>Skill</type>
+				<name>Esoteric Medicine</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Fast-Draw</name>
+			<specialization>Pistol</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B194</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
 		</skill>
 		<skill version="2">
 			<name>Guns</name>
@@ -1703,72 +1777,42 @@ MKzJ/weiywL4uTAORAAAAABJRU5ErkJggg==
 			</default>
 		</skill>
 		<skill version="2">
-			<name>Engineer</name>
-			<specialization>Clockwork</specialization>
-			<tech_level>5+</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>8</points>
-			<reference>B190</reference>
+			<name>Fast-Draw</name>
+			<specialization>Knife</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>2</points>
+			<reference>B194</reference>
 			<categories>
-				<category>Design/Invention</category>
-				<category>Engineer</category>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
 			</categories>
-			<prereq_list all="yes">
-				<when_tl compare="at least">5</when_tl>
-				<skill_prereq has="yes">
-					<name compare="is">mathematics</name>
-					<specialization compare="is">applied</specialization>
-				</skill_prereq>
-			</prereq_list>
-			<default>
-				<type>Skill</type>
-				<name>Mechanic</name>
-				<specialization>Clockwork</specialization>
-				<modifier>-6</modifier>
-			</default>
 		</skill>
 		<skill version="2">
-			<name>Diplomacy</name>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B187</reference>
+			<name>Knife</name>
+			<difficulty>DX/E</difficulty>
+			<points>4</points>
+			<reference>B208</reference>
 			<categories>
-				<category>Business</category>
-				<category>Police</category>
-				<category>Social</category>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
 			</categories>
 			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Politics</name>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Detect Lies</name>
-			<difficulty>Per/H</difficulty>
-			<points>1</points>
-			<reference>B187</reference>
-			<categories>
-				<category>Police</category>
-				<category>Social</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-6</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Body Language</name>
-				<modifier>-4</modifier>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
-				<type>Skill</type>
-				<name>Psychology</name>
+				<type>DX</type>
 				<modifier>-4</modifier>
 			</default>
 		</skill>
@@ -1817,39 +1861,37 @@ MKzJ/weiywL4uTAORAAAAABJRU5ErkJggg==
 			</default>
 		</skill>
 		<skill version="2">
-			<name>Fast-Draw</name>
-			<specialization>Knife</specialization>
-			<difficulty>DX/E</difficulty>
-			<points>2</points>
-			<reference>B194</reference>
+			<name>Seamanship</name>
+			<tech_level>5+</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B185</reference>
 			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
+				<category>Vehicle</category>
 			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
 		</skill>
 		<skill version="2">
-			<name>Engineer</name>
-			<specialization>Ships</specialization>
-			<tech_level>5+</tech_level>
-			<difficulty>IQ/H</difficulty>
+			<name>Riding</name>
+			<specialization>Equine</specialization>
+			<difficulty>DX/A</difficulty>
 			<points>4</points>
-			<reference>B190</reference>
+			<reference>B217</reference>
 			<categories>
-				<category>Design/Invention</category>
-				<category>Engineer</category>
+				<category>Animal</category>
 			</categories>
-			<prereq_list all="yes">
-				<when_tl compare="at least">5</when_tl>
-				<skill_prereq has="yes">
-					<name compare="is">mathematics</name>
-					<specialization compare="is">applied</specialization>
-				</skill_prereq>
-			</prereq_list>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
 			<default>
 				<type>Skill</type>
-				<name>Mechanic</name>
-				<specialization>Ships</specialization>
-				<modifier>-6</modifier>
+				<name>Animal Handling</name>
+				<specialization>Equine</specialization>
+				<modifier>-3</modifier>
 			</default>
 		</skill>
 	</skill_list>
