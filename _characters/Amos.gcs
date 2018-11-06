@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="b1d1e15a-d64e-482c-8408-74eab9d32d92" version="3">
 	<created_date>Aug 6, 2018</created_date>
-	<modified_date>Oct 29, 2018, 7:37 PM</modified_date>
+	<modified_date>Oct 29, 2018, 9:25 PM</modified_date>
 	<profile>
 		<player_name>Josh</player_name>
 		<name>Amos</name>
@@ -21,7 +21,7 @@
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
-	<total_points>168</total_points>
+	<total_points>173</total_points>
 	<ST>12</ST>
 	<DX>12</DX>
 	<IQ>10</IQ>
@@ -117,75 +117,42 @@
 	</advantage_list>
 	<skill_list>
 		<skill version="2">
-			<name>Guns</name>
-			<specialization>Pistol</specialization>
+			<name>Piloting</name>
+			<specialization>Lighter-Than-Air</specialization>
 			<tech_level>5</tech_level>
-			<difficulty>DX/E</difficulty>
-			<points>20</points>
-			<reference>B198</reference>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B214</reference>
 			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
+				<category>Vehicle</category>
 			</categories>
 			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
+				<type>IQ</type>
+				<modifier>-6</modifier>
 			</default>
+			<default>
+				<type>Skill</type>
+				<name>Piloting</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<technique version="2" limit="0">
+			<name>Off-Hand Weapon Training</name>
+			<difficulty>H</difficulty>
+			<points>12</points>
+			<reference>B232</reference>
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>Grenade Launcher</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Gyroc</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Anti-Armor Weapon</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Machine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Musket</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Beam Weapons</name>
 				<specialization>Pistol</specialization>
 				<modifier>-4</modifier>
 			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Rifle</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Shotgun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Submachine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+				<category>Technique</category>
+			</categories>
+		</technique>
 		<skill version="2">
 			<name>Guns</name>
 			<specialization>Rifle</specialization>
@@ -257,116 +224,73 @@
 			</default>
 		</skill>
 		<skill version="2">
-			<name>Brawling</name>
-			<difficulty>DX/E</difficulty>
-			<points>19</points>
-			<reference>B182</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<weapon_bonus>
-				<name compare="is">Brawling</name>
-				<specialization compare="is anything"></specialization>
-				<level compare="at least">2</level>
-				<amount per_level="yes">1</amount>
-			</weapon_bonus>
-		</skill>
-		<technique version="2" limit="5">
-			<name>Disarming</name>
-			<difficulty>H</difficulty>
-			<points>12</points>
-			<reference>B230</reference>
-			<default>
-				<type>Skill</type>
-				<name>Brawling</name>
-				<modifier>0</modifier>
-			</default>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-		</technique>
-		<skill version="2">
-			<name>Armoury</name>
-			<specialization>Melee Weapons</specialization>
+			<name>Guns</name>
+			<specialization>Pistol</specialization>
 			<tech_level>5</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B178</reference>
-			<categories>
-				<category>Military</category>
-				<category>Repair/Maintainance</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<specialization>Melee Weapons</specialization>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<technique version="2" limit="0">
-			<name>Off-Hand Weapon Training</name>
-			<difficulty>H</difficulty>
-			<points>12</points>
-			<reference>B232</reference>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Pistol</specialization>
-				<modifier>-4</modifier>
-			</default>
+			<difficulty>DX/E</difficulty>
+			<points>24</points>
+			<reference>B198</reference>
 			<categories>
 				<category>Combat/Weapon</category>
 				<category>Ranged Combat</category>
-				<category>Technique</category>
-			</categories>
-		</technique>
-		<skill version="2">
-			<name>Armoury</name>
-			<specialization>Missile Weapons</specialization>
-			<tech_level>5</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>4</points>
-			<reference>B178</reference>
-			<categories>
-				<category>Military</category>
-				<category>Repair/Maintainance</category>
 			</categories>
 			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<specialization>Missile Weapons</specialization>
+				<type>DX</type>
 				<modifier>-4</modifier>
 			</default>
-		</skill>
-		<skill version="2">
-			<name>Piloting</name>
-			<specialization>Lighter-Than-Air</specialization>
-			<tech_level>5</tech_level>
-			<difficulty>DX/A</difficulty>
-			<points>1</points>
-			<reference>B214</reference>
-			<categories>
-				<category>Vehicle</category>
-			</categories>
 			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher</specialization>
+				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Piloting</name>
-				<modifier>-5</modifier>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<specialization>Pistol</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun</specialization>
+				<modifier>-2</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -391,6 +315,82 @@
 				<type>Skill</type>
 				<name>Driving</name>
 				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<technique version="2" limit="5">
+			<name>Disarming</name>
+			<difficulty>H</difficulty>
+			<points>12</points>
+			<reference>B230</reference>
+			<default>
+				<type>Skill</type>
+				<name>Brawling</name>
+				<modifier>0</modifier>
+			</default>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+				<category>Technique</category>
+			</categories>
+		</technique>
+		<skill version="2">
+			<name>Brawling</name>
+			<difficulty>DX/E</difficulty>
+			<points>20</points>
+			<reference>B182</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<weapon_bonus>
+				<name compare="is">Brawling</name>
+				<specialization compare="is anything"></specialization>
+				<level compare="at least">2</level>
+				<amount per_level="yes">1</amount>
+			</weapon_bonus>
+		</skill>
+		<skill version="2">
+			<name>Armoury</name>
+			<specialization>Missile Weapons</specialization>
+			<tech_level>5</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>4</points>
+			<reference>B178</reference>
+			<categories>
+				<category>Military</category>
+				<category>Repair/Maintainance</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Missile Weapons</specialization>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Armoury</name>
+			<specialization>Melee Weapons</specialization>
+			<tech_level>5</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B178</reference>
+			<categories>
+				<category>Military</category>
+				<category>Repair/Maintainance</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Melee Weapons</specialization>
+				<modifier>-4</modifier>
 			</default>
 		</skill>
 		<skill version="2">
