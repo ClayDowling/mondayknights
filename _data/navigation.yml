@@ -13,3 +13,7 @@ main:
     url: "/links.html"
   - title: "Reference"
     url: "/gurps-reference.html"
+  - title: "Gadgeteering"
+    url: "/assets/pdfs/Gadgeteering.pdf"
+  - title: "Combat Techniques"
+    url: "/techniques.html"
