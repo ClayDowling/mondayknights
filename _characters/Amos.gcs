@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="b1d1e15a-d64e-482c-8408-74eab9d32d92" version="3">
 	<created_date>Aug 6, 2018</created_date>
-	<modified_date>Dec 17, 2018, 10:05 PM</modified_date>
+	<modified_date>Feb 19, 2019, 9:35 PM</modified_date>
 	<profile>
 		<player_name>Josh</player_name>
 		<name>Amos</name>
@@ -20,8 +20,9 @@
 		<tech_level>5</tech_level>
 	</profile>
 	<HP>0</HP>
+	<current_hp>12</current_hp>
 	<FP>0</FP>
-	<total_points>187</total_points>
+	<total_points>192</total_points>
 	<ST>12</ST>
 	<DX>12</DX>
 	<IQ>10</IQ>
@@ -544,7 +545,7 @@
 			</categories>
 		</equipment>
 	</equipment_list>
-	<print_settings printer="NPIDBA376 (HP Color LaserJet MFP M281fdw)" units="in">
+	<print_settings printer="HPC1D9B6 (HP Photosmart 6520 series)" units="in">
 		<orientation>portrait</orientation>
 		<width>8.5</width>
 		<height>11</height>
